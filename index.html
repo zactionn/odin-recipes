@@ -7,34 +7,60 @@
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">Odin Recipes</h1>  
-    <img 
-    class="Nasi Lemak Picture"
-    src="https://upload.wikimedia.org/wikipedia/commons/5/55/Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg"
-    alt="Coconut Rice in an Inverted Bowl Shape, on top of a Black Plate and by its side, a boiled egg (half portion), cucumber, ikan bilis, peanuts, squid with sambal, chilli" />
-
-    <h2> Description</h2>
-    This is a classic nasi lemak look but the taste often differs as the aromatics used to cook the rice makes all the difference. My mom often adds lemon grass, ginger, garlic and pandan leaves to add more flavour to the rice. 
-    The rice is the main star of the show, with the co-star being the sambal chilli that comes in all degrees of spice and sweetness. Its often made with balachan, which is dried shrimps.
-
-    <h3>Ingredients</h3>
+<!--learn that to justify text, you must use only the text-x class-->
+    <h1 class="text-center text-4xl font-bold m-3">Odin Recipes</h1>  
+<!--combine flexbox utilities on container while maintaining grid, defines flexbox size -->   
+    <div class="grid grid-flow-col lg:grid-cols-2 gap-4 items-start">
+     
+<!--container of the image-->    
+<!--we can add   <div class="h-48 lg:h-64 w-full flex justify-center items-center">      
+     to constraint the size of the pic-->
+     <div class="min-w-fit flex justify-center items-center m-6">      
+     
+        <img 
+        class="object-cover w-full h-full rounded-lg"
+        src="https://upload.wikimedia.org/wikipedia/commons/5/55/Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg"
+        alt="Coconut Rice in an Inverted Bowl Shape, on top of a Black Plate and by its side, a boiled egg (half portion), cucumber, ikan bilis, peanuts, squid with sambal, chilli" 
+    />
+    </div> 
+    
+    <!--Description Goes Here-->    
+    <div class="mt-4">
+        <h2 class="text-2xl font-semibold"> Description</h2>
+        <p>This is a classic nasi lemak look but the taste often differs as the aromatics used to cook the rice makes all the difference. My mom often adds lemon grass, ginger, garlic and pandan leaves to add more flavour to the rice. 
+        The rice is the main star of the show, with the co-star being the sambal chilli that comes in all degrees of spice and sweetness. Its often made with balachan, which is dried shrimps.</p>
+    
+    <!--Ingredients Goes Here-->
+        <div class="mt-4">
+    <h3 class="text-2xl font-semibold">Ingredients</h3>
     <ul>
         <li>Basmatic Rice</li>
         <li>Pandan Leaves</li>
         <li>Garlic</li>    
     </ul>
+    </div>
 
-    <h4>Steps</h4>
-    <ol>
-        <li>Soak the rice in water</li>
-        <li>Steam the rice instead of putting them in a rice cooker. Mix it around from time to time</li>
-    </ol>
+    <!--Steps Goes Here-->
 
+    <div class="mt-4">
+        <h4 class="text-2xl font-semibold">Steps</h4>
+        <ol>
+            <li>1. Soak the rice in water</li>
+            <li>2. Steam the rice instead of putting them in a rice cooker. Mix it around from time to time</li>
+        </ol>
+    </div>
+    
+
+</div>
+</div>
+   
+    
+   
     <ul>
         <li><a href="recipes/nasilemak.html">Nasi Lemak</a></li>
         <li><a href="recipes/nasilemak.html">Bak Kut Teh</a></li>
         <li><a href="recipes/nasilemak.html">Curry Chicken</a></li>          
     </ul>
-
+    <a href="pages/about.html">About</a>
 </body>
 </html>
