@@ -578,16 +578,20 @@ video {
   }
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .m-6 {
   margin: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
