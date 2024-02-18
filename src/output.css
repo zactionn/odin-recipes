@@ -614,6 +614,10 @@ video {
   height: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
@@ -752,6 +756,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .md\:items-center {
